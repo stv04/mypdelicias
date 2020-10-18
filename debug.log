@@ -1,0 +1,8 @@
+[1002/205827.090:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: La operación se completó correctamente. (0x0)
+[1010/094904.355:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1010/214607.896:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\acer\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\54d071fc-53d0-413e-8158-93749acc9a12: El sistema no puede encontrar la ruta especificada. (0x3)
+[1012/120410.183:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1012/175425.542:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1015/100453.783:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1016/100453.202:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1017/100454.546:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
