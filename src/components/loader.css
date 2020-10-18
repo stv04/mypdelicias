@@ -1,0 +1,127 @@
+.loader,
+.loader:before,
+.loader:after {
+  background: blue;
+  -webkit-animation: loads 1s infinite ease-in-out;
+  animation: loads 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.loader:before {
+  left: -1.5em;
+}
+.loader {
+  text-indent: -9999em;
+  margin: auto;
+  margin-top: 13%;
+  position: relative;
+  font-size: 11px;
+  -webkit-animation-delay: 0.16s;
+  animation-delay: 0.16s;
+}
+.loader:after {
+  left: 1.5em;
+  -webkit-animation-delay: 0.32s;
+  animation-delay: 0.32s;
+}
+@-webkit-keyframes loads {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 blue;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em blue;
+    height: 5em;
+  }
+}
+@keyframes loads {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 blue;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em blue;
+    height: 5em;
+  }
+}
+
+
+
+
+
+
+/*.loader {
+  font-size: 20px;
+  margin: 45% auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
+}
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0em -3em 0em 0.2em blue, 2em -2em 0 0em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 -0.5em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 0em blue;
+  }
+  12.5% {
+    box-shadow: 0em -3em 0em 0em blue, 2em -2em 0 0.2em blue, 3em 0em 0 0em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 -0.5em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 -0.5em blue;
+  }
+  25% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 0em blue, 3em 0em 0 0.2em blue, 2em 2em 0 0em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 -0.5em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 -0.5em blue;
+  }
+  37.5% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 0em blue, 2em 2em 0 0.2em blue, 0em 3em 0 0em blue, -2em 2em 0 -0.5em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 -0.5em blue;
+  }
+  50% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 0em blue, 0em 3em 0 0.2em blue, -2em 2em 0 0em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 -0.5em blue;
+  }
+  62.5% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 0em blue, -2em 2em 0 0.2em blue, -3em 0em 0 0em blue, -2em -2em 0 -0.5em blue;
+  }
+  75% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 0em blue, -3em 0em 0 0.2em blue, -2em -2em 0 0em blue;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0em 0em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 0em blue, -3em 0em 0 0em blue, -2em -2em 0 0.2em blue;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0em -3em 0em 0.2em blue, 2em -2em 0 0em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 -0.5em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 0em blue;
+  }
+  12.5% {
+    box-shadow: 0em -3em 0em 0em blue, 2em -2em 0 0.2em blue, 3em 0em 0 0em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 -0.5em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 -0.5em blue;
+  }
+  25% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 0em blue, 3em 0em 0 0.2em blue, 2em 2em 0 0em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 -0.5em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 -0.5em blue;
+  }
+  37.5% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 0em blue, 2em 2em 0 0.2em blue, 0em 3em 0 0em blue, -2em 2em 0 -0.5em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 -0.5em blue;
+  }
+  50% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 0em blue, 0em 3em 0 0.2em blue, -2em 2em 0 0em blue, -3em 0em 0 -0.5em blue, -2em -2em 0 -0.5em blue;
+  }
+  62.5% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 0em blue, -2em 2em 0 0.2em blue, -3em 0em 0 0em blue, -2em -2em 0 -0.5em blue;
+  }
+  75% {
+    box-shadow: 0em -3em 0em -0.5em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 0em blue, -3em 0em 0 0.2em blue, -2em -2em 0 0em blue;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0em 0em blue, 2em -2em 0 -0.5em blue, 3em 0em 0 -0.5em blue, 2em 2em 0 -0.5em blue, 0em 3em 0 -0.5em blue, -2em 2em 0 0em blue, -3em 0em 0 0em blue, -2em -2em 0 0.2em blue;
+  }
+}*/
