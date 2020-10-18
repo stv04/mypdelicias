@@ -1,69 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+﻿This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## M&P DELICIAS GOURMET
+	Restaurante de comida rápida, en Cali, Colombia.
+Hamburguesas, Sándwiches, Perros, Wraps, Maicitos, Salchipapas, entre otros, son los productos que ofrecen en general, con carne preparada en casa, al igual que las salsas, productos 100% naturales con ingredientes frescos.
 
-In the project directory, you can run:
+La intención de esta app, es establecer una interacción entre comensal, cajero y cocinero, de forma más rápida y efectiva, que permite las siguientes funciones principales:
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `Experiencia de usuario 1`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+El cajero puede principalmente:
+• Ingresar con una cuenta de gMail o con solo el ingreso de un nombre de usuario para actuar como comensal.
+• Seleccionar entre los productos disponibles.
+• Revisar el pedido que va a enviar solicitar.
+• Eliminar un pedido por el cual haya cambiado de opinión.
+• Adicionarle algún ingrediente.
+• Eliminarle algún ingrediente que no desee.
+• Ver el total antes de enviar su pedido.
+• Agregar el nombre del comensal o número de mesa (obligatorio) y enviarle una nota al cocinero de dicho producto (opcional).
+• Enviar el pedido cocina.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `Experiencia de usuario 2`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El cocinero puede principalmente:
+• Ver detalles del pedido recibido desde la caja.
+• Tomar pedidos
+• Enviar los pedidos listos al cajero/mesero
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### `Experiencia de usuario 3`
+Luego de que el cocinero termine un pedido, el cajero podrá:
+• Revisar el pedido terminado
+• Entregar el pedido al comensal para enviarlo al historial de pedidos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ 
+**funciones adicionales de la App: **
+• Envía una alerta al cajero con cuantos pedidos ya están listos para entregar
+• Envía una alerta al cocinero cada vez que el cajero envía un pedido nuevo.
+• Realiza un registro de tiempo desde que el cajero envía la orden hasta que la entrega o la cancela.
+• Realiza un conteo de pedidos y promedio de tiempo de entrega de productos.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**funciones adicionales del Cajero: **
+• Ver los pedidos que han sido tomados por el cocinero
+• Ver los pedidos listo
+• Ver los pedidos que están en cola (pedidos que fueron enviados a cocina, pero no han sido tomados por el cocinero)
+• Ver el historial de pedidos con información detallada.
+• Cancelar un pedido antes que el cocinero lo tome (siempre y cuando el cocinero no lo haya tomado)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**funciones adicionales del Cocinero: **
+• Ver el historial de pedidos con información detallada
+• Ver las notas ingresadas por el cajero
+• Al igual que el cajero, puede ver el nombre de quien realizó el pedido
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# mypdelicias
+Ingresa al siguiente link para ir al deploy de la App: https://burguerqueen-a7db2.web.app/
